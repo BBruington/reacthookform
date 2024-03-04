@@ -76,7 +76,7 @@ export const MailForm = () => {
                   <Input className="text-black" placeholder="" {...field} />
                 </FormControl>
                 <FormDescription>Your first name.</FormDescription>
-                <FormMessage />
+                <FormMessage className="text-red-600" />
               </FormItem>
             )}
           />
@@ -90,7 +90,7 @@ export const MailForm = () => {
                   <Input className="text-black" placeholder="" {...field} />
                 </FormControl>
                 <FormDescription>Your last name.</FormDescription>
-                <FormMessage />
+                <FormMessage className="text-red-600" />
               </FormItem>
             )}
           />
@@ -105,7 +105,7 @@ export const MailForm = () => {
                 <Input className="text-black" placeholder="" {...field} />
               </FormControl>
               <FormDescription>Your email address.</FormDescription>
-              <FormMessage />
+              <FormMessage className="text-red-600" />
             </FormItem>
           )}
         />
